@@ -1,0 +1,81 @@
+body {
+  background: rgb(0,0,0);
+}
+.container {
+  background: rgb(255,255,255);
+}
+header, footer {
+  background: rgb(200,200,210);
+}
+header h1 {
+  font-size: 150%;
+}
+header p {
+  margin-top: 30px;
+  text-align: right;
+  padding-right: 15px;
+}
+.main {
+  position: relative;
+  padding-right: 175px;
+}
+.subtitle {
+  margin-bottom: 60px;
+}
+.main h2 {
+  color: rgb(200,200,210);
+}
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 120px;
+  font-size: 150%;
+}
+.highlights span {
+  margin: 0px 12px;
+}
+nav {
+  mmargin-top: 60px;
+  position: fixed !important;
+  top: 210px;
+}
+nav h3 {
+  font-size: 18px;
+}
+aside {
+  position: absolute;
+  right: 35px;
+  top: 35px;
+  padding: 0 9px;
+  text-align: center;
+  width: 180px;
+  background: url(../img/bars.png) no-repeat;
+  padding-left: 21px;
+}
+aside p {
+  font-size: 500%;
+  margin: 0;
+  line-height: 96px;
+}
+aside div {
+  position: absolute;
+  left: -26px;
+  z-index: 2;
+}
+.bottom-number {
+  bottom: 0;
+}
+.sharing {
+  padding: 1px 15px;
+  margin: 60px 0;
+}
+#sent {
+  color: white;
+}
+#sent em{
+  color: #31708f;
+  font-style: normal;
+}
+.main .last {
+  margin-bottom: 120px;
+}
